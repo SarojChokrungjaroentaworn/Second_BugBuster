@@ -18,7 +18,7 @@ public class BB_TestCase_02 extends CommonMethods {
 		click(ip.sizeS);
 		click(ip.colorblue);
 		click(ip.addToCartButton);
-		hardWait(1);
+		hardWait(3);
 		click(ip.goToCart);
 		waitForVisibility(ip.firstItemInCart);
 		Assert.assertTrue(

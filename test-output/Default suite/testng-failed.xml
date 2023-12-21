@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.saroj.BB_TestCase_01">
+      <class name="testcases.saroj.BB_TestCase_03">
         <methods>
           <include name="getDriver"/>
+          <include name="updateQuantityInCart"/>
           <include name="login"/>
-          <include name="removeItemfromCart"/>
         </methods>
-      </class> <!-- testcases.saroj.BB_TestCase_01 -->
+      </class> <!-- testcases.saroj.BB_TestCase_03 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
