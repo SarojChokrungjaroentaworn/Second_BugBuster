@@ -35,6 +35,11 @@ public class HomePage {
 	@FindBy(xpath = "//dl[@id='narrow-by-list2']//ol/li[1]/a")
 	public WebElement topInWoman;
 	
+	@FindBy(xpath = "//div[@class='footer content']/div/div/ul/li[3]/a")
+	public WebElement contactUs;
+	
+	
+	
 	
 
 }

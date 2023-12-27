@@ -48,6 +48,13 @@ public class ItemPage {
 	@FindBy(xpath = "//select[@id='sorter']/option[2]")
 	public WebElement sortByName;
 	
+	@FindBy(xpath = "//div[@data-price-box='product-id-1556']//span[@class='price']")
+	public WebElement firstItemPrice;
+	
+	
+	
+	//div[@data-price-box='product-id-1556']
+	
 	
 
 }
